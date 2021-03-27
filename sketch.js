@@ -81,7 +81,7 @@ if (player.isTouching(colliderGroup)){
 player.velocityY = 0;
 }
   
-if (score===20){
+if (score===20 || score>20){
 blank1.visible=true;
 gameState = END;
 }
